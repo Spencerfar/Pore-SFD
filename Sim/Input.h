@@ -16,8 +16,6 @@ void Input(int argc, char *argv[]) {
 	
 	//get seed
 	ID = atoi(argv[6]);
-	scale_series = atoi(argv[7]);
-	scale_numtime = atoi(argv[8]);
 	
 	std::ifstream SeedFile;
 	SeedFile.open("SeedFile");

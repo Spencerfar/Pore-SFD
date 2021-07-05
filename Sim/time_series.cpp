@@ -37,8 +37,11 @@ int main(int argc, char *argv[]) {
 
     //input parameters and seed RNG
     Input(argc, argv);
+	scale_series = atoi(argv[7]);
+	scale_numtime = atoi(argv[8]);
+	
     g1.seed(Seed);
-    
+	
     std::cout << "R: " << R << " D0: " << D0 << " dx: " << dx
     	      << " kon: " << kon << " koff: " << koff 
 			  << " khop: " << khop << " width: " << width << " ID: "
