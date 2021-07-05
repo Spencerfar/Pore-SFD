@@ -196,6 +196,6 @@ for id,kOff in enumerate(kOff_list):
             )
     
 plt.tight_layout()
-plt.subplots_adjust(hspace=0.32)
-fig.subplots_adjust(top=0.94,bottom=0.09)
+#plt.subplots_adjust(hspace=0.32)
+#fig.subplots_adjust(top=0.94,bottom=0.09)
 plt.savefig('../Plots/fig3_binding_same_figure_kA'+str(int(kA))+'_L'+str(width)+'.pdf')
