@@ -74,7 +74,7 @@ for id,kOff in enumerate(kOff_list):
     khop = Dhop/fractionFree
     Ron = kOn/khop
     
-    data = np.loadtxt('../Sim/Data_Old/Longer/TimeSeries_Width'+str(width)+'R'+str(R)+'koff'+str(kOff)+'ID'+str(id_list[id]))
+    data = np.loadtxt('../Sim/Data/TimeSeries_Width'+str(width)+'R'+str(R)+'koff'+str(kOff)+'ID'+str(id_list[id]))
     time, step, out, number_bound, number_total = list(data.T)
 
     index_high, index_low, state = calc_timings(data)
