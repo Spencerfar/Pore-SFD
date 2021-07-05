@@ -24,7 +24,7 @@ int ID; //for seeding
 int Seed;//
 int scale_series;
 int scale_numtime;
-std::string Folder = "DataMar9/";
+std::string Folder = "Data/";
 
 #include "Binding.h"
 #include "AddParticle.h"
