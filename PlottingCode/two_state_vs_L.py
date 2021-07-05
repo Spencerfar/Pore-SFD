@@ -80,10 +80,6 @@ tau_slow = []
 tau_free = []
 
 
-number_bound_list = []
-number_bound_list_min = []
-number_bound_list_max = []
-
 width_list = [2,4,8,16,32,64,128,256,512,1024]
 
 for id,width in enumerate(width_list):
@@ -92,15 +88,6 @@ for id,width in enumerate(width_list):
     
     time, step, out, number_bound, number_total = list(data.T)
     index_high,index_low, num_bound_high = calc_timings(data)
-    
-    if len(num_bound_high) > 0:
-        number_bound_list.append(np.mean(num_bound_high))
-        number_bound_list_min.append(np.percentile(num_bound_high, q=25))
-        number_bound_list_max.append(np.percentile(num_bound_high, q=75))
-    else:
-        number_bound_list.append(-1)
-        number_bound_list_min.append(-1)
-        number_bound_list_max.append(-1)
     
     total_time = time[-1] - time[0]
     
@@ -214,4 +201,4 @@ ax[1].set_xlim(1,1150)
 
 plt.tight_layout()
 plt.subplots_adjust(wspace=0.24)
-plt.savefig('../Publication_Plots/TimeSeries_averages_kA'+str(int(kA))+'_Ron'+str(round(Ron,9))+'.pdf')
+plt.savefig('../Plots/fig4AB_kA'+str(int(kA))+'_Ron'+str(round(Ron,9))+'.pdf')

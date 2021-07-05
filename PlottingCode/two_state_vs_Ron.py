@@ -198,4 +198,4 @@ ax[1].tick_params(labelsize=15)
 
 plt.tight_layout()
 plt.subplots_adjust(wspace=0.24)
-plt.savefig('../Publication_Plots/TimeSeries_averages_kA'+str(int(kA))+'_L'+str(width)+'.pdf')
+plt.savefig('../Plots/fig4CD_averages_kA'+str(int(kA))+'_L'+str(width)+'.pdf')
