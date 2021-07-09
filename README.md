@@ -1,6 +1,5 @@
 # Single-file diffusion in pores
-Code for the paper "Non-Fickian single-file pore transport".
-
+Code for the paper "Non-Fickian single-file pore transport" https://arxiv.org/abs/2107.03498.
 
 ## Running simulations
 Simulation code in Sim/ is compiled with "make".
@@ -12,3 +11,15 @@ To run simulations for time series (figure 3 and 4), use time_series.cpp with co
 ## Plotting
 Plotting code in PlottingCode/ creates the plots from data from the simulations.
 
+## Citation
+The original paper should be cited as
+```
+@misc{farrell2021nonfickian,
+      title={Non-Fickian single-file pore transport}, 
+      author={Spencer Farrell and Andrew D Rutenberg},
+      year={2021},
+      eprint={2107.03498},
+      archivePrefix={arXiv},
+      primaryClass={cond-mat.stat-mech}
+}
+```
