@@ -2,7 +2,7 @@
 Code for the paper "Non-Fickian single-file pore transport" https://arxiv.org/abs/2107.03498.
 
 <p align="center"> 
-<img src="diagram.png" width="964" height="405">
+<img src="diagram.png" width="714" height="300">
 </p>
 
 ## Running simulations
