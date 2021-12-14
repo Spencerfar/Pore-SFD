@@ -1,6 +1,10 @@
 # Single-file diffusion in pores
 Code for the paper "Non-Fickian single-file pore transport" https://arxiv.org/abs/2107.03498.
 
+<p align="center"> 
+<img src="diagram.png" width="964" height="405">
+</p>
+
 ## Running simulations
 Simulation code in Sim/ is compiled with "make".
 
