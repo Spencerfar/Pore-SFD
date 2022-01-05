@@ -18,12 +18,16 @@ Plotting code in PlottingCode/ creates the plots from data from the simulations.
 ## Citation
 The original paper should be cited as
 ```
-@misc{farrell2021nonfickian,
-      title={Non-Fickian single-file pore transport}, 
-      author={Spencer Farrell and Andrew D Rutenberg},
-      year={2021},
-      eprint={2107.03498},
-      archivePrefix={arXiv},
-      primaryClass={cond-mat.stat-mech}
+@ARTICLE{Farrell2021-sd,
+  title     = "{Non-Fickian} single-file pore transport",
+  author    = "Farrell, Spencer and Rutenberg, Andrew D",
+  journal   = "Phys. Rev. E",
+  publisher = "American Physical Society",
+  volume    =  104,
+  number    =  3,
+  pages     = "L032102",
+  month     =  sep,
+  year      =  2021
 }
+
 ```
