@@ -1,5 +1,5 @@
 # Single-file diffusion in pores
-Code for the paper "Non-Fickian single-file pore transport" https://journals.aps.org/pra/abstract/10.1103/PhysRevA.8.3050 (pre-print https://arxiv.org/abs/2107.03498).
+Code for the paper "Non-Fickian single-file pore transport" https://journals.aps.org/pre/abstract/10.1103/PhysRevE.104.L032102 (pre-print https://arxiv.org/abs/2107.03498).
 
 <p align="center"> 
 <img src="diagram.png" width="714" height="300">
